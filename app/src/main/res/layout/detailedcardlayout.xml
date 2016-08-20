@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/info_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:elevation="15dp"
+        android:background="@color/colorAccent"
+        android:stateListAnimator="@anim/lift_off"
+        android:transitionName="@string/imagepoint"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="This is line 1 with some random content and now i have to think for some extra content so that i can fill the other text view too. Oh I Know i can just copy the same data over there."
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:text="This is line 1 with some random content and now i have to think for some extra content so that i can fill the other text view too. Oh I Know i can just copy the same data over there."
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is line 1 with some random content and now i have to think for some extra content so that i can fill the other text view too. Oh I Know i can just copy the same data over there."
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:text="This is line 1 with some random content and now i have to think for some extra content so that i can fill the other text view too. Oh I Know i can just copy the same data over there."
+        android:id="@+id/textView4" />
+
+</LinearLayout>
